@@ -570,12 +570,12 @@
             <img src="https://play-lh.googleusercontent.com/eRZLg00mAQGayCrFjDBklPIpW3qFHcmUs8PUQA4z7hVe-cDKMcRqecVHONAIexJGJZM"
                 alt="Locket Icon" class="app-icon">
             <h1>Locket Gold</h1>
-            <p class="subtitle">Unlock premium features instantly</p>
+            <p class="subtitle">Mở khóa tính năng cao cấp ngay lập tức</p>
 
             <div class="form-group">
                 <div class="global-queue-container" id="globalQueueContainer">
                     <div class="global-queue-item">
-                        <div class="global-queue-label">Total Waiting</div>
+                        <div class="global-queue-label">Hàng chờ</div>
                         <div class="global-queue-value" id="globalQueueTotal">-</div>
                     </div>
                     <div class="global-queue-item">
@@ -584,12 +584,12 @@
                     </div>
                 </div>
 
-                <label for="username">Target Username</label>
-                <input type="text" id="username" placeholder="Enter Locket username..." required autocomplete="off">
+                <label for="username">Tên người dùng</label>
+                <input type="text" id="username" placeholder="Nhập tên người dùng..." required autocomplete="off">
             </div>
 
             <button id="submitBtn" onclick="checkUserInfo()">
-                <span class="btn-text">Check User Info</span>
+                <span class="btn-text">Kiểm tra</span>
                 <div class="loader" id="loader"></div>
             </button>
         </div>
@@ -602,7 +602,7 @@
                     <line x1="12" y1="16" x2="12" y2="12"></line>
                     <line x1="12" y1="8" x2="12.01" y2="8"></line>
                 </svg>
-                How to use
+                Hướng dẫn sử dụng
             </h3>
 
             <!-- Platform Tabs -->
@@ -628,14 +628,12 @@
             <!-- iOS Content -->
             <div id="ios-content" class="platform-content active">
                 <ol>
-                    <li>Open the Locket app and find your username in settings.</li>
-                    <li>Enter your exact username in the field above.</li>
-                    <li>Click <strong>Check User Info</strong> to verify the account.</li>
-                    <li>Review the information and click <strong>Continue</strong> to unlock Gold.</li>
-                    <li><strong>Important:</strong> After activation, you must install the configuration profile below
-                        to
-                        block revocation.</li>
-                    <li>Restart your Locket app to see the changes.</li>
+                    <li>Mở ứng dụng Locket và tìm tên người dùng của bạn trong cài đặt.</li>
+                    <li>Nhập chính xác tên người dùng của bạn vào ô trên.</li>
+                    <li>Ấn <strong>Kiểm tra</strong> để xác minh tài khoản.</li>
+                    <li>Xem lại thông tin và nhấp để <strong>Tiếp Tục</strong> mở khóa Gold.</li>
+                    <li><strong>Chú ý:</strong> Sau khi kích hoạt, bạn phải cài đặt cấu hình bên dưới để chặn thu hồi.</li>
+                    <li>Khởi động lại ứng dụng Locket để thấy thay đổi.</li>
                 </ol>
                 <div style="margin-top: 1rem; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
                     <a href="/static/locket.mobileconfig" class="download-btn" target="_blank" style="
@@ -659,7 +657,7 @@
                             <polyline points="7 10 12 15 17 10"></polyline>
                             <line x1="12" y1="15" x2="12" y2="3"></line>
                         </svg>
-                        Download Profile
+                        Tải cấu hình
                     </a>
 
                     <button onclick="showTutorial()" style="
@@ -683,7 +681,7 @@
                             <circle cx="12" cy="12" r="10"></circle>
                             <polygon points="10 8 16 12 10 16 10 8"></polygon>
                         </svg>
-                        Watch Tutorial
+                        Xem hướng dẫn
                     </button>
                 </div>
             </div>
@@ -691,17 +689,17 @@
             <!-- Android Content -->
             <div id="android-content" class="platform-content">
                 <ol>
-                    <li>Open the Locket app and find your username in Settings.</li>
-                    <li>Click <strong>Check User Info</strong> to verify the account.</li>
-                    <li>Go to <strong>Settings → Network & Internet</strong> on your Android device.</li>
-                    <li>Tap <strong>Private DNS</strong>.</li>
-                    <li>Select <strong>Private DNS provider hostname</strong>.</li>
-                    <li>Enter the following hostname:</li>
+                    <li>Mở ứng dụng Locket và tìm tên người dùng của bạn trong Cài đặt.</li>
+                    <li>Ấn <strong>Kiểm tra</strong> để xác minh tài khoản</li>
+                    <li>Vào <strong>Cài đặt → Mạng & Internet</strong> trên thiết bị Android của bạn.</li>
+                    <li>Chọn <strong>DNS riêng tư</strong>.</li>
+                    <li>Chọn <strong>Tên máy chủ DNS riêng tư.</strong>.</li>
+                    <li>Nhập tên máy chủ sau:</li>
                 </ol>
                 <div class="dns-hostname">62d63b.dns.nextdns.io</div>
                 <ol start="7">
-                    <li>Tap <strong>Save</strong>.</li>
-                    <li>Restart your Locket app to see the changes.</li>
+                    <li>Nhấn <strong>Lưu</strong>.</li>
+                    <li>Khởi động lại ứng dụng Locket để thấy thay đổi.</li>
                 </ol>
             </div>
         </div>
@@ -715,12 +713,12 @@
                     <line x1="12" y1="9" x2="12" y2="13"></line>
                     <line x1="12" y1="17" x2="12.01" y2="17"></line>
                 </svg>
-                Important Note
+                Lưu ý quan trọng
             </h3>
             <ul>
-                <li>This tool is compatible with <strong>iOS and Android Devices</strong>.</li>
-                <li>The Gold subscription is only valid until you <strong>log out</strong> of the Locket app.</li>
-                <li>This project is created for <strong>educational purposes only</strong>.</li>
+                <li>Công cụ này tương thích với <strong>Thiết bị iOS và Android. </strong>.</li>
+                <li>Gói Gold chỉ có hiệu lực cho đến khi bạn<strong> đăng xuất</strong> khỏi ứng dụng Locket.</li>
+                <li>Dự án này được tạo ra chỉ với <strong>mục đích giáo dục.</strong>.</li>
             </ul>
         </div>
     </div>
