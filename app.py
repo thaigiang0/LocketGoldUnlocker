@@ -23,11 +23,8 @@ QUEUE_STATE_FILE = "queue_state.json"
 
 # Initialize API and Auth
 subscription_ids = [
-    "locket_1600_1y",
     "locket_199_1m",
     "locket_199_1m_only",
-    "locket_3600_1y",
-    "locket_399_1m_only",
 ]
 
 auth = Auth(os.getenv("EMAIL"), os.getenv("PASSWORD"))
